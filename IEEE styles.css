@@ -36,13 +36,12 @@ input{
   font-size: 1.4rem;
 }
 
-
-form button:hover {
+button:hover {
   background-color: black;
 }
 
 
-form button{
+button{
   color: ;
   background-color: white;
   border-radius: 7rem;
@@ -66,4 +65,35 @@ label{
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+.list{
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#TODOC{
+  position: relative;
+  padding-top: 10px;
+  margin-top: 70px;
+  margin-left: 340px;
+  margin-right: 340px;
+  border-style: solid;
+  background-color:  #EAF6F6;
+}
+
+p{
+  position: relative;
+  text-align:left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  cursor:pointer;
+  margin: 3px;
+}
+
+#delete-button{
+  display: inline;
+margin-left: 210px;
+position: relative;
 }
