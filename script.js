@@ -21,3 +21,8 @@ addToDoButton.addEventListener('click', function(){
 
 
 })
+function showAlert() {
+  if(inputField.value!=""){
+  alert("YOUR Task is Added");
+ }
+}
