@@ -8,6 +8,13 @@ addToDoButton.addEventListener('click', function(){
       divi.innerText = inputField.value;
       toDoContainer.appendChild(divi);
       inputField.value="";
+      var doneButton = document.createElement('button');
+          doneButton.id = 'done-button';
+          doneButton.innerHTML="Done";
+          toDoContainer.appendChild(doneButton);
+          doneButton.addEventListener('click',function(){
+            divi.style.textDecoration="line-through";
+          })
     var deleteButton = document.createElement('button');
         deleteButton.id = 'delete-button';
         deleteButton.innerHTML="Delete";
@@ -15,14 +22,15 @@ addToDoButton.addEventListener('click', function(){
         deleteButton.addEventListener('click',function(){
           toDoContainer.removeChild(divi);
           deleteButton.remove('button');
+          doneButton.remove('button');
         })
       }
-
-
-
 })
 function showAlert() {
   if(inputField.value!=""){
   alert("YOUR Task is Added");
+ }
+ if(inputField.value==""){
+   alert("ERROR! Please Enter a Task");
  }
 }
