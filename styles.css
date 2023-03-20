@@ -1,0 +1,87 @@
+body {
+  background-color: #E1FFEE;
+    margin: 0px;
+    text-align: center;
+    text-color
+}
+
+
+.First {
+  background-color: #E1FFEE;
+  padding-top: 50px;
+  display: inline-block;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  line-height: 2;
+}
+
+.Head1 {
+  font-size: 3rem;
+  margin: 0 auto 0 auto;
+  color: #371B58;
+}
+
+input{
+  border-radius: 5rem;
+  font-size: 1.4rem;
+  display: inline;
+}
+
+button:hover {
+  background-color: black;
+}
+
+
+button{
+  color: ;
+  background-color: white;
+  border-radius: 7rem;
+  font-size: 1.4rem;
+}
+
+hr {
+  border-color: #16213E;
+  border-width: medium;
+  border-style: dotted;
+  border-width: medium;
+  border
+
+}
+
+label{
+  font-size: 1.4rem;
+}
+
+#TODOC{
+  position: relative;
+  padding-top: 10px;
+  margin-top: 70px;
+  margin-left: 340px;
+  margin-right: 340px;
+  border-style: solid;
+  background-color:  #EAF6F6;
+}
+
+p{
+  text-align:left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  cursor:pointer;
+  margin: 3px;
+
+
+}
+
+#delete-button{
+display: inline;
+margin-left: 210px;
+
+}
+
+#done-button{
+  display: inline;
+  margin-left: 180px;
+}
